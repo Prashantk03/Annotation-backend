@@ -9,8 +9,8 @@ const app = express();
 app.use(
   cors({
     origin: [
+      "https://annotation-frontend-gilt.vercel.app/", 
       "http://localhost:5173",  
-      "https://YOUR-VERCEL-APP.vercel.app", 
     ],
     credentials: true,
   })
